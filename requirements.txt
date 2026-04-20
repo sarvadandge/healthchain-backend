@@ -1,7 +1,7 @@
-fastapi
-uvicorn
-python-dotenv
-requests
-python-multipart
-cryptography
-web3
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+python-dotenv==1.0.1
+requests==2.32.3
+python-multipart==0.0.9
+cryptography==42.0.8
+web3==6.20.1

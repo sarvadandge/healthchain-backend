@@ -13,7 +13,17 @@ HealthChain is a backend service that provides a robust API for managing health-
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your environment variables as needed.
+3. Environment Variables
+
+To run this project, you need the following environment variables:
+
+- **ALCHEMY_RPC**: Get your Alchemy RPC URL by signing up at [Alchemy](https://www.alchemy.com/).
+- **PRIVATE_KEY**: Generate a private key from your Ethereum wallet (e.g., MetaMask).
+- **HEALTHCHAIN_ADDRESS**: This is the contract address for the HealthChain project. Contact your project administrator for this value.
+- **PINATA_API_KEY**: Sign up at [Pinata](https://pinata.cloud/) and retrieve your API key from your dashboard.
+- **PINATA_SECRET_KEY**: After signing in, go to your API keys section to find your secret key.
+- **ENCRYPTION_KEY**: This key should be generated securely for encryption purposes. Consult your developer for specifications.
+make sure to create a `.env` file in the root directory of the project and copy the provided variables from `.env.example` to your `.env` file. The `.env.example` file contains a template for setting up your environment variables.
 
 ## Running the Application
 To run the application, use the following command:
